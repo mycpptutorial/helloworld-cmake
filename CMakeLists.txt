@@ -1,6 +1,8 @@
-cmake_minimum_required (VERSION 2.6)
-project (Hello)
+cmake_minimum_required(VERSION 2.8.12)
+project(Hello)
 
-set (HELLO_SRCS hello.h hello.cpp main.cpp)
+add_definitions("-std=c++11")
 
-add_executable(greet ${HELLO_SRCS})
+ADD_LIBRARY(hello hello.cpp)
+ADD_EXECUTABLE(greet main.cpp)
+TARGET_LINK_LIBRARIES(greet hello)
