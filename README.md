@@ -4,9 +4,9 @@ This sample is showing you how you can use cmake and CMakeLists.txt file to comp
 
 ## Environment Setup
 
-Make sure **g++** installed. If not go to http://kabiliravi.com/index.php/software/programming/mycpptutorial/environment-setup/build-and-run-your-first-application-with-gcc/ for more help.
+Make sure **g++** installed. If not go to [Build and run your first application with g++](http://kabiliravi.com/index.php/software/programming/mycpptutorial/environment-setup/build-and-run-your-first-application-with-gcc/) for more help.
 
-Also make sure **make** command is installed. If not go to http://kabiliravi.com/index.php/software/programming/mycpptutorial/environment-setup/build-and-run-your-first-application-with-make/ for more help.
+Also make sure **make** command is installed. If not go to [Build and run your first application with make](http://kabiliravi.com/index.php/software/programming/mycpptutorial/environment-setup/build-and-run-your-first-application-with-make/) for more help.
 
 Run following command to see if **cmake** is installed:
 
@@ -84,3 +84,5 @@ Run *greet* command like this:
 $ ./bin/greet
 Hello World!
 ```
+
+Visit [Build and run your first application with cmake](http://kabiliravi.com/index.php/software/programming/mycpptutorial/environment-setup/build-and-run-your-first-application-with-cmake/) to learn more about this sample.
