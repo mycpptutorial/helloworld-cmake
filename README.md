@@ -2,6 +2,32 @@
 
 This sample is showing you how you can use cmake and CMakeLists.txtfile to compile your c++ application.
 
+## Envorinment Setup
+
+Make sure **g++** installed. If not go to http://kabiliravi.com/index.php/software/programming/mycpptutorial/environment-setup/build-and-run-your-first-application-with-gcc/ for more help.
+
+Also make sure **make** command is intalled. If not go to http://kabiliravi.com/index.php/software/programming/mycpptutorial/environment-setup/build-and-run-your-first-application-with-make/ for more help.
+
+Run following command to see if **cmake** is installed:
+
+```
+$ cmake --version
+zsh: command not found: cmake
+```
+If you face **command not found: cmake** that means it is not there.
+
+### Installing make
+
+  - MacOS
+    ```
+    $ brew install cmake
+    ```
+  - Linux
+    - Debian/Ubuntu
+      ```
+      $ sudo apt install cmake
+      ```
+
 ## Building Hello World application
 
 Create a folder called *build* and then use *cmake* command to build the application. It uses Makefile compile the sources to object files.
