@@ -6,7 +6,7 @@ This sample is showing you how you can use cmake and CMakeLists.txtfile to compi
 
 Make sure **g++** installed. If not go to http://kabiliravi.com/index.php/software/programming/mycpptutorial/environment-setup/build-and-run-your-first-application-with-gcc/ for more help.
 
-Also make sure **make** command is intalled. If not go to http://kabiliravi.com/index.php/software/programming/mycpptutorial/environment-setup/build-and-run-your-first-application-with-make/ for more help.
+Also make sure **make** command is installed. If not go to http://kabiliravi.com/index.php/software/programming/mycpptutorial/environment-setup/build-and-run-your-first-application-with-make/ for more help.
 
 Run following command to see if **cmake** is installed:
 
