@@ -1,6 +1,6 @@
 # helloworld-cmake
 
-This sample is showing you how you can use cmake and CMakeLists.txtfile to compile your c++ application.
+This sample is showing you how you can use cmake and CMakeLists.txt file to compile your c++ application.
 
 ## Environment Setup
 
@@ -60,7 +60,12 @@ CMake Warning:
 -- Build files have been written to: /Users/nkabiliravi/git/mycpptutorial/helloworld-cmake/build
 ```
 
-and then link them using *make* command into an executable file called *greet*.
+Now use **cmale --build** command link the object files into a file called **greet**:
+```
+$ cmake --build .
+```
+
+You can also use **make** command:
 
 ```
 $ make
@@ -76,6 +81,6 @@ Scanning dependencies of target greet
 Run *greet* command like this:
 
 ```
-$ ./greet
+$ ./bin/greet
 Hello World!
 ```
